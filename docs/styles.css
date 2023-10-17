@@ -1,13 +1,14 @@
 /* Pozadie */
 body {
-  background: linear-gradient(0deg, rgba(0,95,218,1) 0%, rgba(187,177,255,1) 100%) no-repeat;
-  background-size: 100% 1000px;
+  background: linear-gradient(0deg, rgba(0,206,255,1) 0%, rgba(0,0,164,1) 100%) no-repeat;
+  background-size: 100% 100%;
   margin: 0;
   padding: 0;
 }
 /* Pozadie za napisom */
 header {
     background-color: #94bbe9;
+    max-width: 100%;
     margin: 0;
     padding: 0;
     border-radius: 10px;
@@ -20,10 +21,36 @@ body {
   margin: 0;
   padding: 20px;
 }
-.container {
+/* Lavy chat box */
+.lcontainer {
   max-width: 800px;
   margin: 0 auto;
   background-color: #94bbe9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; 
+  float: left;
+  clear: left;
+}
+/* Pravy chat box */
+.rcontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #94bbe9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; 
+  float: right;
+  clear: right;
+}
+/* RTX Chat box */
+.rtxcontainer {
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  background-color: #1dc714;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -39,4 +66,9 @@ p {
 
 .center{
   text-align: center;
+}
+
+.image-container {
+  background-color: #000000;
+  display: inline-block;
 }
