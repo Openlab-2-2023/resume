@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  background-color: black;
+}
+
+header { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.stars {
+  transform: translateZ(-20px) scale(3);
+}
+
+.moon {
+  transform: translateZ(-15px) scale(2.5);
+}
+
+.mountian1 {
+  transform: translateZ(-10px) scale(2);
+}
+
+.mountian2 {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.stars,
+.moon,
+.mountian1,
+.mountian2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.title {
+  font-size: 7rem;
+  color: blueviolet;
+  text-shadow: 0 0 10px black;
+  z-index: -3;
+}
+
+
+section {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: blueviolet;
+}
