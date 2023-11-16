@@ -54,10 +54,9 @@ header {
   z-index: -3;
 }
 
-
 section {
   font-size: 2rem;
   padding: 2rem;
   background-color: blueviolet;
-  z-index: -1;
+  z-index: 1;
 }
